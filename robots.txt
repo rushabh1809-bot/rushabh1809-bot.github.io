@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rushabh1809-bot.github.io/sitemap.xml

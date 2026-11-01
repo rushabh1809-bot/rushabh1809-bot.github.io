@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rushabh Sharma | Financial Analyst &amp; Aspiring Investment Banker</title>
+<meta name="description" content="Rushabh Sharma, financial analyst (ex-PwC) and MSc Business Analytics candidate at Royal Holloway, University of London, targeting equity research and investment banking.">
+<link rel="canonical" href="https://rushabh1809-bot.github.io/">
+<meta name="author" content="Rushabh Sharma">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Rushabh Sharma | Financial Analyst">
+<meta property="og:description" content="Financial analyst (ex-PwC) and MSc Business Analytics candidate at Royal Holloway, University of London, targeting equity research and investment banking.">
+<meta property="og:url" content="https://rushabh1809-bot.github.io/">
+<meta property="og:image" content="https://rushabh1809-bot.github.io/rushabh-sharma.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Rushabh Sharma","jobTitle":"Financial Analyst","url":"https://rushabh1809-bot.github.io/","image":"https://rushabh1809-bot.github.io/rushabh-sharma.jpg","email":"mailto:rushabh9003@outlook.com","alumniOf":{"@type":"CollegeOrUniversity","name":"Royal Holloway, University of London"},"sameAs":["https://www.linkedin.com/in/rushabh-sharma-81b515285/","https://github.com/rushabh1809-bot"]}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Hanken+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: single dark column, wide margins, a quiet left index rail on desktop; one hero with the portrait, then ledger-style sections. */
+:root {
+  --bg: #0a0a0b;
+  --surface: #121214;
+  --line: #24232a;
+  --fg: #ecebe6;
+  --muted: #8f8d94;
+  --faint: #5b5a61;
+  --gold: #c9ad7a;
+  --gold-soft: rgba(201,173,122,.14);
+  --display: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  --body: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.65;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+a { color: inherit; }
+a:focus-visible, button:focus-visible { outline: 1px solid var(--gold); outline-offset: 4px; }
+::selection { background: var(--gold); color: var(--bg); }
+
+.wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding-left: max(24px, env(safe-area-inset-left, 0px));
+  padding-right: max(24px, env(safe-area-inset-right, 0px));
+}
+@media (max-width: 480px) { .wrap { padding-left: max(18px, env(safe-area-inset-left, 0px)); padding-right: max(18px, env(safe-area-inset-right, 0px)); } }
+
+/* ---------- Nav ---------- */
+.nav {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: rgba(10,10,11,.82);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.nav .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 16px; }
+.mark { font-family: var(--display); font-size: 22px; letter-spacing: .02em; text-decoration: none; white-space: nowrap; }
+.mark i { color: var(--gold); font-style: italic; }
+.nav ul { list-style: none; display: flex; gap: 28px; margin: 0; padding: 0; }
+.nav ul a { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; text-decoration: none; color: var(--muted); transition: color .2s; }
+.nav ul a:hover { color: var(--fg); }
+@media (max-width: 720px) { .nav ul { display: none; } }
+
+/* ---------- Hero ---------- */
+.hero { padding-block: clamp(56px, 9vw, 112px) clamp(56px, 8vw, 96px); }
+.hero .wrap { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: clamp(40px, 6vw, 88px); align-items: end; }
+.eyebrow { font-family: var(--mono); font-size: 11.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); display: flex; align-items: center; gap: 12px; margin: 0 0 28px; }
+.eyebrow::before { content: ""; width: 28px; height: 1px; background: var(--gold); }
+h1 {
+  font-family: var(--display); font-weight: 400;
+  font-size: clamp(56px, 9vw, 112px); line-height: .92; letter-spacing: -.015em;
+  margin: 0 0 28px; text-wrap: balance;
+}
+h1 em { font-style: italic; color: var(--gold); font-weight: 400; }
+.role { font-size: clamp(17px, 1.6vw, 20px); color: var(--fg); margin: 0 0 18px; font-weight: 400; }
+.intro { color: var(--muted); max-width: 54ch; margin: 0 0 36px; }
+.cta { display: flex; flex-wrap: wrap; gap: 14px; }
+.btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: var(--body); font-size: 13px; font-weight: 500; letter-spacing: .1em; text-transform: uppercase;
+  padding: 14px 22px; border: 1px solid var(--line); background: transparent; color: var(--fg);
+  text-decoration: none; cursor: pointer; transition: border-color .25s, background .25s, color .25s;
+}
+.btn:hover { border-color: var(--gold); }
+.btn.primary { background: var(--gold); border-color: var(--gold); color: var(--bg); }
+.btn.primary:hover { background: transparent; color: var(--gold); }
+.btn svg { width: 14px; height: 14px; }
+
+.portrait { position: relative; margin: 0; }
+.portrait .frame { position: relative; aspect-ratio: 4 / 5; max-width: 100%; overflow: hidden; background: var(--surface); }
+.portrait img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; display: block; filter: saturate(.82) contrast(1.04); }
+.portrait .frame::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,11,0) 55%, rgba(10,10,11,.55) 100%); pointer-events: none; }
+.portrait::before { content: ""; position: absolute; inset: 14px -14px -14px 14px; border: 1px solid var(--gold); opacity: .35; pointer-events: none; }
+.portrait figcaption { position: absolute; left: 18px; bottom: 16px; z-index: 1; font-family: var(--mono); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: rgba(236,235,230,.78); }
+
+@media (max-width: 860px) {
+  .hero .wrap { grid-template-columns: 1fr; }
+  .portrait { order: -1; max-width: 420px; margin-right: 14px; }
+}
+
+/* ---------- Ticker strip (focus areas) ---------- */
+.strip { border-block: 1px solid var(--line); overflow: hidden; }
+.strip .track { display: flex; gap: 48px; padding-block: 18px; width: max-content; animation: drift 48s linear infinite; }
+.strip span { font-family: var(--mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); white-space: nowrap; display: inline-flex; align-items: center; gap: 48px; }
+.strip span::after { content: "◆"; color: var(--gold); font-size: 7px; }
+@keyframes drift { to { transform: translateX(-50%); } }
+
+/* ---------- Sections ---------- */
+section.block { padding-block: clamp(72px, 10vw, 128px); border-bottom: 1px solid var(--line); }
+.block .wrap { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: clamp(28px, 5vw, 72px); }
+.label { font-family: var(--mono); font-size: 11.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--faint); padding-top: 10px; }
+.label b { display: block; color: var(--gold); font-weight: 500; margin-bottom: 6px; }
+h2 { font-family: var(--display); font-weight: 400; font-size: clamp(36px, 4.6vw, 54px); line-height: 1.04; margin: 0 0 28px; letter-spacing: -.01em; text-wrap: balance; max-width: 22ch; }
+h2 em { color: var(--gold); }
+.lede { color: var(--muted); max-width: 62ch; margin: 0; }
+.lede + .lede { margin-top: 16px; }
+@media (max-width: 760px) { .block .wrap { grid-template-columns: 1fr; gap: 18px; } .label { padding-top: 0; } }
+
+/* About facts */
+.facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; margin-top: 48px; border-top: 1px solid var(--line); }
+.fact { padding: 24px 24px 4px 0; min-width: 0; }
+.fact + .fact { padding-left: 24px; border-left: 1px solid var(--line); }
+.fact dt { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--faint); margin-bottom: 10px; }
+.fact dd { margin: 0; font-size: 15px; color: var(--fg); line-height: 1.5; }
+@media (max-width: 760px) { .facts { grid-template-columns: 1fr; } .fact + .fact { padding-left: 0; border-left: 0; border-top: 1px solid var(--line); } .fact { padding: 18px 0; } }
+
+/* Experience */
+.roles { display: grid; gap: 64px; }
+.role-card { border-top: 1px solid var(--line); padding-top: 32px; }
+.role-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 24px; margin-bottom: 6px; }
+.role-head h3 { font-family: var(--display); font-weight: 500; font-size: clamp(28px, 3vw, 36px); margin: 0; line-height: 1.1; }
+.role-head h3 span { font-family: var(--body); font-weight: 300; font-size: 15px; color: var(--muted); margin-left: 10px; letter-spacing: 0; }
+.dates { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; color: var(--gold); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.where { font-size: 14px; color: var(--muted); margin: 0 0 28px; }
+.kpis { display: flex; flex-wrap: wrap; gap: 0; margin: 0 0 32px; border: 1px solid var(--line); width: fit-content; max-width: 100%; }
+.kpi { padding: 18px 28px; min-width: 0; }
+.kpi + .kpi { border-left: 1px solid var(--line); }
+.kpi strong { display: block; font-family: var(--display); font-weight: 400; font-size: 40px; line-height: 1; color: var(--fg); font-variant-numeric: tabular-nums; }
+.kpi small { font-family: var(--mono); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--faint); }
+@media (max-width: 480px) { .kpi { padding: 14px 18px; } .kpi strong { font-size: 32px; } }
+.points { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; max-width: 64ch; }
+.points li { position: relative; padding-left: 28px; color: var(--muted); }
+.points li::before { content: ""; position: absolute; left: 0; top: .8em; width: 14px; height: 1px; background: var(--gold); }
+
+/* Projects */
+.project {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 16px 32px; align-items: center;
+  padding: 32px; border: 1px solid var(--line); background: var(--surface); text-decoration: none;
+  transition: border-color .3s, transform .3s;
+}
+.project:hover { border-color: var(--gold); }
+.project .tag { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); margin-bottom: 10px; }
+.project h3 { font-family: var(--display); font-weight: 500; font-size: clamp(26px, 2.8vw, 32px); margin: 0 0 8px; line-height: 1.1; }
+.project p { margin: 0; color: var(--muted); max-width: 56ch; }
+.project .repo { font-family: var(--mono); font-size: 12.5px; color: var(--faint); margin-top: 14px; overflow-wrap: anywhere; }
+.arrow { width: 52px; height: 52px; border: 1px solid var(--line); display: grid; place-items: center; transition: border-color .3s, background .3s; }
+.arrow svg { width: 18px; height: 18px; color: var(--gold); }
+.project:hover .arrow { background: var(--gold-soft); border-color: var(--gold); }
+@media (max-width: 560px) { .project { grid-template-columns: 1fr; padding: 24px; } }
+.note { font-size: 14px; color: var(--faint); margin: 20px 0 0; }
+
+/* Skills */
+.skills { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--line); }
+.skill { padding: 26px 28px 28px 0; border-bottom: 1px solid var(--line); min-width: 0; }
+.skill:nth-child(even) { padding-left: 28px; padding-right: 0; border-left: 1px solid var(--line); }
+.skill h3 { font-family: var(--body); font-weight: 500; font-size: 15px; letter-spacing: .01em; margin: 0 0 12px; color: var(--fg); display: flex; gap: 12px; align-items: baseline; }
+.skill h3 span { font-family: var(--mono); font-size: 10.5px; color: var(--gold); letter-spacing: .1em; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0; padding: 0; list-style: none; }
+.chips li { font-size: 13.5px; color: var(--muted); }
+.chips li:not(:last-child)::after { content: "·"; color: var(--faint); margin-left: 14px; }
+@media (max-width: 760px) { .skills { grid-template-columns: 1fr; } .skill, .skill:nth-child(even) { padding: 22px 0; border-left: 0; } }
+
+/* Contact */
+.contact h2 { max-width: 16ch; }
+.channels { display: grid; gap: 0; margin-top: 12px; border-top: 1px solid var(--line); }
+.channel { display: grid; grid-template-columns: 140px minmax(0, 1fr) auto; gap: 16px; align-items: center; padding-block: 22px; border-bottom: 1px solid var(--line); }
+.channel dt { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--faint); }
+.channel dd { margin: 0; font-family: var(--display); font-size: clamp(22px, 2.6vw, 30px); overflow-wrap: anywhere; min-width: 0; user-select: all; }
+.channel dd a { text-decoration: none; border-bottom: 1px solid transparent; transition: border-color .2s; user-select: auto; }
+.channel dd a:hover { border-color: var(--gold); }
+.mini { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); background: none; border: 1px solid var(--line); padding: 9px 14px; cursor: pointer; text-decoration: none; white-space: nowrap; transition: border-color .2s; }
+.mini:hover { border-color: var(--gold); }
+@media (max-width: 600px) { .channel { grid-template-columns: 1fr auto; } .channel dt { grid-column: 1 / -1; } }
+
+footer { padding-block: 40px 56px; }
+footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--faint); }
+
+/* Load-in (from a visible resting state) */
+.rise { animation: rise .9s cubic-bezier(.2,.7,.2,1) both; }
+.d1 { animation-delay: .08s; } .d2 { animation-delay: .18s; } .d3 { animation-delay: .28s; } .d4 { animation-delay: .38s; }
+@keyframes rise { from { transform: translateY(14px); opacity: .001; } to { transform: none; opacity: 1; } }
+</style>
+
+</head>
+<body>
+<nav class="nav" aria-label="Primary">
+  <div class="wrap">
+    <a class="mark" href="#top">Rushabh <i>Sharma</i></a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow rise">Ex-PwC · Equity Research · Investment Banking</p>
+      <h1 class="rise d1">Rushabh<br><em>Sharma</em></h1>
+      <p class="role rise d2">Financial Analyst &amp; aspiring Investment Banker</p>
+      <p class="intro rise d3">MSc Business Analytics candidate at Royal Holloway, University of London. I combine fundamental and macro analysis of equities with Python, SQL and Excel modelling.</p>
+      <div class="cta rise d4">
+        <a class="btn primary" href="#contact">Get in touch</a>
+        <a class="btn" href="https://www.linkedin.com/in/rushabh-sharma-81b515285/" target="_blank" rel="noopener">
+          LinkedIn
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M5 11 11 5M6 5h5v5"/></svg>
+        </a>
+      </div>
+    </div>
+    <figure class="portrait rise d2">
+      <div class="frame"><img src="rushabh-sharma.jpg" alt="Portrait of Rushabh Sharma"></div>
+    </figure>
+  </div>
+</header>
+
+<div class="strip" aria-hidden="true">
+  <div class="track">
+    <span>Relative valuation</span><span>Financial statement analysis</span><span>Macro research</span><span>Indian equities</span><span>VIX stress regimes</span><span>Financial modelling</span><span>Python · SQL · Excel</span><span>Power BI</span>
+    <span>Relative valuation</span><span>Financial statement analysis</span><span>Macro research</span><span>Indian equities</span><span>VIX stress regimes</span><span>Financial modelling</span><span>Python · SQL · Excel</span><span>Power BI</span>
+  </div>
+</div>
+
+<main>
+  <section class="block" id="about">
+    <div class="wrap">
+      <div class="label"><b>About</b>Profile</div>
+      <div>
+        <h2>Reading markets through <em>fundamentals</em> and data.</h2>
+        <p class="lede">I'm an MSc Business Analytics candidate at Royal Holloway, University of London, targeting equity research. My dissertation focuses on detecting stock market stress regimes using the VIX and historical market data.</p>
+        <p class="lede">Over three years of self-directed work, I've analysed Indian equities using relative valuation, financial statement analysis and macroeconomic research, and backed that analysis with Python, SQL and Excel models.</p>
+        <dl class="facts">
+          <div class="fact"><dt>Studying</dt><dd>MSc Business Analytics<br>Royal Holloway, University of London</dd></div>
+          <div class="fact"><dt>Dissertation</dt><dd>Detecting stock market stress regimes with VIX and historical market data</dd></div>
+          <div class="fact"><dt>Coverage</dt><dd>3 years of fundamental and macro analysis of Indian equities</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="experience">
+    <div class="wrap">
+      <div class="label"><b>Experience</b>Roles &amp; ventures</div>
+      <div>
+        <h2>Where I've <em>worked</em>.</h2>
+        <div class="roles">
+        <article class="role-card">
+          <div class="role-head">
+            <h3>PwC <span>Financial Analyst</span></h3>
+            <span class="dates">Apr 2026 — Sep 2026</span>
+          </div>
+          <p class="where">United Kingdom</p>
+          <div class="kpis">
+            <div class="kpi"><strong>~25%</strong><small>Less report prep time</small></div>
+            <div class="kpi"><strong>~20%</strong><small>Less manual data handling</small></div>
+          </div>
+          <ul class="points">
+            <li>Evaluated financial performance across business units by analysing revenue trends, operating expenses and profitability using Advanced Excel and Power BI, translating findings into actionable recommendations that helped management assess business performance and identify areas requiring attention.</li>
+            <li>Developed monthly financial forecasts and budget variance reports by consolidating actuals, forecast assumptions and historical financial data, identifying deviations between planned and actual expenditure and helping finance leadership improve budget monitoring across reporting cycles.</li>
+            <li>Streamlined management reporting by developing standardised Power BI dashboards and Excel-based financial models, reducing manual reporting preparation time by approximately 25% and giving stakeholders clearer insight into revenue performance, cost movements and departmental KPIs.</li>
+            <li>Assessed financial performance and cost-related risks through budget variance analysis, cost-benefit assessments and scenario modelling, identifying key cost drivers and presenting recommendations to support resource allocation and financial planning decisions.</li>
+            <li>Implemented AI-assisted financial analysis workflows using approved enterprise AI tools to organise financial commentary, summarise reporting trends and identify unusual movements in financial datasets, accelerating preliminary analysis while maintaining analyst-led validation and reporting accuracy.</li>
+            <li>Automated recurring financial data preparation and reporting using Excel Power Query and standardised reporting templates, reducing repetitive data handling by approximately 20% and improving consistency across monthly financial reporting.</li>
+            <li>Supported financial planning and business decision-making by preparing scenario-based forecasts, cash flow projections and financial performance summaries, translating complex financial information into practical recommendations for finance managers and business stakeholders.</li>
+          </ul>
+        </article>
+
+        <article class="role-card">
+          <div class="role-head">
+            <h3>PixelEdge Systems <span>Financial Analyst</span></h3>
+            <span class="dates">Jan 2024 — Aug 2025</span>
+          </div>
+          <p class="where">India</p>
+          <div class="kpis">
+            <div class="kpi"><strong>~20%</strong><small>Faster financial reports</small></div>
+            <div class="kpi"><strong>~15%</strong><small>Less manual reporting</small></div>
+          </div>
+          <ul class="points">
+            <li>Analysed monthly financial performance by reviewing revenue, operating expenses and project-level financial data using Advanced Excel and SQL, helping management understand profitability trends, spending patterns and performance across operational activities.</li>
+            <li>Prepared annual budgets and periodic financial forecasts by consolidating historical expenditure, departmental requirements and revenue assumptions, giving finance managers structured information to support resource allocation and budget planning.</li>
+            <li>Reconciled financial transactions and accounting records by reviewing general ledger entries, accounts payable, accounts receivable and supporting documentation, resolving discrepancies and maintaining reliable records for monthly closing.</li>
+            <li>Generated monthly financial statements and management reports by consolidating income statement, balance sheet and cash flow information, reducing report preparation time by approximately 20% and improving the consistency of information shared with management.</li>
+            <li>Monitored project costs and operational expenditure through cost center analysis, budget tracking and variance reporting, identifying spending deviations and recommending expense-control measures to department heads for better resource utilisation.</li>
+            <li>Designed Excel-based financial dashboards using Pivot Tables, XLOOKUP and Power Query to consolidate financial information and track KPIs, reducing manual reporting effort by approximately 15% and simplifying the review of revenue and expenditure trends.</li>
+            <li>Evaluated business financial performance through profitability analysis, working capital assessments and financial ratio calculations, preparing periodic insights that helped management assess cash flow requirements, operating efficiency and financial planning priorities.</li>
+          </ul>
+        </article>
+
+        <article class="role-card">
+          <div class="role-head">
+            <h3>Lurkviel <span>Clothing brand</span></h3>
+            <span class="dates">Dec 2024 — May 2025</span>
+          </div>
+          <p class="where">Founder, University Entrepreneurship Project · Ahmedabad, India</p>
+          <div class="kpis">
+            <div class="kpi"><strong>150</strong><small>Units sold</small></div>
+            <div class="kpi"><strong>3</strong><small>Designs</small></div>
+            <div class="kpi"><strong>6</strong><small>Months</small></div>
+          </div>
+          <ul class="points">
+            <li>Launched a direct-to-consumer clothing brand as a university venture project, selling 150 units across 3 designs in six months through Instagram and online marketplaces.</li>
+            <li>Owned end-to-end operations including product design, supplier sourcing, pricing and social media promotion, tracking sales by design and channel to inform restocking decisions.</li>
+          </ul>
+        </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="work">
+    <div class="wrap">
+      <div class="label"><b>Portfolio</b>Selected work</div>
+      <div>
+        <h2>Analysis, in <em>code</em>.</h2>
+        <a class="project" href="https://github.com/rushabh1809-bot/python-individual-" target="_blank" rel="noopener">
+          <div>
+            <div class="tag">Python · GitHub</div>
+            <h3>Python Individual Project</h3>
+            <p>An individual Python analysis project. The code and notebooks are on GitHub.</p>
+            <div class="repo">github.com/rushabh1809-bot/python-individual-</div>
+          </div>
+          <span class="arrow" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="skills">
+    <div class="wrap">
+      <div class="label"><b>Skills</b>Toolkit</div>
+      <div>
+        <h2>The <em>toolkit</em>.</h2>
+        <div class="skills">
+          <div class="skill"><h3><span>FP&amp;A</span>Financial Planning &amp; Analysis</h3><ul class="chips"><li>Financial Planning</li><li>Budgeting</li><li>Forecasting</li><li>Budget Variance Analysis</li><li>Financial Performance Analysis</li><li>Scenario Analysis</li><li>Cost Control</li><li>Resource Allocation</li></ul></div>
+          <div class="skill"><h3><span>MOD</span>Financial Modelling &amp; Corporate Finance</h3><ul class="chips"><li>Financial Modelling</li><li>Revenue Forecasting</li><li>Cash Flow Projections</li><li>Sensitivity Analysis</li><li>Cost-Benefit Analysis</li><li>ROI</li><li>NPV</li><li>IRR</li><li>Working Capital Analysis</li></ul></div>
+          <div class="skill"><h3><span>FSA</span>Financial Statement &amp; Accounting Analysis</h3><ul class="chips"><li>Income Statement</li><li>Balance Sheet</li><li>Cash Flow Statement</li><li>Ratio Analysis</li><li>Profitability Analysis</li><li>General Ledger</li><li>AP / AR</li><li>Accrual Accounting</li><li>Reconciliation</li></ul></div>
+          <div class="skill"><h3><span>RPT</span>Financial Reporting &amp; Management Analysis</h3><ul class="chips"><li>Monthly Reporting</li><li>Management &amp; MIS Reporting</li><li>KPI Tracking</li><li>Financial Close Support</li><li>Cost Center Analysis</li><li>Revenue &amp; Expense Analysis</li><li>Financial Commentary</li></ul></div>
+          <div class="skill"><h3><span>XLS</span>Excel &amp; Financial Analytics</h3><ul class="chips"><li>Advanced Excel</li><li>Pivot Tables</li><li>XLOOKUP</li><li>VLOOKUP</li><li>INDEX-MATCH</li><li>Power Query</li><li>Data Consolidation</li><li>Reporting Automation</li></ul></div>
+          <div class="skill"><h3><span>BI</span>Business Intelligence &amp; Visualisation</h3><ul class="chips"><li>Microsoft Power BI</li><li>Interactive Dashboards</li><li>Financial KPI Dashboards</li><li>Data Visualisation</li><li>Performance Reporting</li></ul></div>
+          <div class="skill"><h3><span>SQL</span>SQL &amp; Financial Data Management</h3><ul class="chips"><li>SQL</li><li>Data Extraction</li><li>Data Validation</li><li>Data Reconciliation</li><li>Financial Data Analysis</li><li>Trend Analysis</li></ul></div>
+          <div class="skill"><h3><span>ERP</span>Financial Systems &amp; ERP</h3><ul class="chips"><li>SAP</li><li>Oracle Financials</li><li>NetSuite</li><li>Workday Financial Management</li><li>Financial Data Management</li></ul></div>
+          <div class="skill"><h3><span>AI</span>AI-Assisted Financial Analysis</h3><ul class="chips"><li>Generative AI</li><li>AI-Assisted Reporting</li><li>Data Summarisation</li><li>Anomaly Identification</li><li>Automated Insights</li><li>AI-Assisted Commentary</li></ul></div>
+          <div class="skill"><h3><span>PY</span>Programming</h3><ul class="chips"><li>Python</li><li>SQL</li><li>Excel Modelling</li></ul></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block contact" id="contact">
+    <div class="wrap">
+      <div class="label"><b>Contact</b>Let's talk</div>
+      <div>
+        <h2>Open to roles in <em>equity research</em> and investment banking.</h2>
+        <dl class="channels">
+          <div class="channel">
+            <dt>Email</dt>
+            <dd id="email"><a href="mailto:rushabh9003@outlook.com">rushabh9003@outlook.com</a></dd>
+            <button class="mini" id="copy" type="button">Copy</button>
+          </div>
+          <div class="channel">
+            <dt>LinkedIn</dt>
+            <dd><a href="https://www.linkedin.com/in/rushabh-sharma-81b515285/" target="_blank" rel="noopener">rushabh-sharma</a></dd>
+            <a class="mini" href="https://www.linkedin.com/in/rushabh-sharma-81b515285/" target="_blank" rel="noopener">Open</a>
+          </div>
+          <div class="channel">
+            <dt>GitHub</dt>
+            <dd><a href="https://github.com/rushabh1809-bot" target="_blank" rel="noopener">rushabh1809-bot</a></dd>
+            <a class="mini" href="https://github.com/rushabh1809-bot" target="_blank" rel="noopener">Open</a>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Rushabh Sharma</span>
+    <span>Updated November 2026</span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var btn = document.getElementById('copy');
+  var email = document.getElementById('email');
+  function selectText() {
+    var r = document.createRange(); r.selectNodeContents(email);
+    var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+  }
+  btn.addEventListener('click', function () {
+    var text = email.textContent.trim();
+    var done = function () { btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = 'Copy'; }, 1800); };
+    try {
+      navigator.clipboard.writeText(text).then(done, function () { selectText(); btn.textContent = 'Selected'; });
+    } catch (e) { selectText(); btn.textContent = 'Selected'; }
+  });
+})();
+</script>
+
+</body>
+</html>
